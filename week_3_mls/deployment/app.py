@@ -10,7 +10,11 @@ st.set_page_config(
     page_title="AI Machine Failure Prediction System",
     page_icon="⚙️"
     )
-st.title("AI Powered Machine Failure Prediction App")
+st.markdown(
+    "<h1 style='font-size: 36px;'>AI Powered Machine Failure Prediction App</h1>",
+    unsafe_allow_html=True
+)
+# st.title("AI Powered Machine Failure Prediction App")
 st.write("""
 This application predicts the likelihood of a machine failing based on its operational parameters.
 Enter the sensor and configuration data below to get a prediction.
