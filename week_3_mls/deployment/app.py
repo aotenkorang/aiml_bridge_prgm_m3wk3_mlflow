@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="⚙️"
     )
 st.markdown(
-    "<h1 style='font-size: 36px;'>AI Powered Machine Failure Prediction App</h1>",
+    "<h1 style='font-size: 36px;'>AI-Powered Machine Failure Prediction App</h1>",
     unsafe_allow_html=True
 )
 # st.title("AI Powered Machine Failure Prediction App")
