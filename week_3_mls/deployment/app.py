@@ -6,8 +6,11 @@ import joblib
 # Load the model committed by the pipeline (sits next to this file)
 model_path = os.path.join(os.path.dirname(__file__), "best_machine_failure_model_v1.joblib")
 model = joblib.load(model_path)
-
-st.title("Machine Failure Prediction App")
+st.set_page_config(
+    page_title="AI Machine Failure Prediction System",
+    page_icon="⚙️"
+)
+st.title("Machine Failure Prediction App System")
 st.write("""
 This application predicts the likelihood of a machine failing based on its operational parameters.
 Enter the sensor and configuration data below to get a prediction.
