@@ -8,9 +8,8 @@ model_path = os.path.join(os.path.dirname(__file__), "best_machine_failure_model
 model = joblib.load(model_path)
 st.set_page_config(
     page_title="AI Machine Failure Prediction System",
-    page_icon="⚙️",
-    layout="wide"
-)
+    page_icon="⚙️"
+    )
 st.title("AI Powered Machine Failure Prediction App")
 st.write("""
 This application predicts the likelihood of a machine failing based on its operational parameters.
